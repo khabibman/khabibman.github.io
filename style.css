@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 html{
-    scroll-behavior: smooth;
+   background:#111;
 }
 /* custom scroll bar */
 ::-webkit-scrollbar {
