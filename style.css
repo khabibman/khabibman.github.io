@@ -20,6 +20,14 @@ section{
     padding: 0 80px;
     margin: auto;
 }
+body {
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+}
+
+* { color:#fff; text-decoration: none;}
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
