@@ -118,7 +118,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #E7D4B5;
+    color: #346751;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -134,7 +134,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #E7D4B5;
+    background: #346751;
 }
 .navbar .max-width{
     display: flex;
@@ -310,7 +310,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #C84B31;
+    background: #346751;
     content: "what i provide";
 }
 .services .serv-content .card{
@@ -513,7 +513,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #fff;
 }
 .contact .right form .fields{
     display: flex;
