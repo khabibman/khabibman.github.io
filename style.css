@@ -147,16 +147,16 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #BC6FF1;
+    color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #fff;
+    color: #BC6FF1;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #BC6FF1;
 }
 .navbar .menu li{
     list-style: none;
@@ -307,11 +307,11 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #fff;
+    background: #BC6FF1;
 }
 .services .title::before,
 .teams .title::before{
-    background: #fff;
+    background: #892CDC;
 }
 .services .title::after,
 .teams .title::after{
