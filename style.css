@@ -76,7 +76,7 @@ section{
   width: 100%;
   background: #393E46;
   margin-top: 15px;
-  border-left: 2px solid #BC6FF1;
+  border-left: 2px solid #892CDC;
   animation: typing 3s steps(10) infinite;
 }
 @keyframes typing {
