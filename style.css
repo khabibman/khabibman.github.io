@@ -328,7 +328,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #892CDC;
+    background: #393E46;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
