@@ -307,7 +307,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #BC6FF1;
+    background: #52057B;
 }
 .services .title::before,
 .teams .title::before{
