@@ -291,7 +291,7 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #892CDC;
+    background: #222;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
