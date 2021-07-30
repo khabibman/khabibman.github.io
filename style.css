@@ -321,7 +321,9 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #892CDC
+
+;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
