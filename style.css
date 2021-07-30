@@ -284,7 +284,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #892CDC;
+    color: #222;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -331,7 +331,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #892CDC;
+    background: #222;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
