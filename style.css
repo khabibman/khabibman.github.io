@@ -147,12 +147,13 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: #BC6FF1;
+;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #892CDC;
+    color: #fff;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
