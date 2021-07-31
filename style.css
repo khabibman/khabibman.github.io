@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -51,7 +52,7 @@ section{
 }
 .dynamic-txts li{
   list-style: none;
-  color: #fff;
+  color: #BC6FF1;
   font-size: 60px;
   font-weight: 500;
   position: relative;
@@ -74,9 +75,9 @@ section{
   left: 0;
   height: 100%;
   width: 100%;
-  background: #892CDC;
+  background: #393E46;
   margin-top: 15px;
-  border-left: 2px solid #892CDC;
+  border-left: 2px solid #BC6FF1;
   animation: typing 3s steps(10) infinite;
 }
 @keyframes typing {
@@ -148,16 +149,15 @@ section .title::after{
 }
 .navbar .logo a{
     color: #BC6FF1;
-;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #fff;
+    color: #52057B;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #BC6FF1;
 }
 .navbar .menu li{
     list-style: none;
@@ -243,12 +243,12 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #52057B;
+    color: #892CDC;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #52057B;
+    background: #892CDC;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
@@ -284,14 +284,14 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #222;
+    color: #892CDC;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #222;
+    background: #892CDC;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -308,11 +308,11 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #52057B;
+    background: #892CDC;
 }
 .services .title::before,
 .teams .title::before{
-    background: #892CDC;
+    background: #fff;
 }
 .services .title::after,
 .teams .title::after{
@@ -321,9 +321,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #892CDC
-
-;
+    background: #222;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -331,7 +329,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #222;
+    background: #892CDC;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
