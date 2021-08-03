@@ -50,6 +50,7 @@ section{
   height: 90px;
   line-height: 90px;
   overflow: hidden;
+	margin-top:20px;
 }
 .dynamic-txts li{
   list-style: none;
