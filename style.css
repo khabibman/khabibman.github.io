@@ -205,6 +205,9 @@ section .title::after{
     pointer-events: none;
     transition: all 0.3s ease;
 }
+.box a {
+color:#fff;
+}
 
 .scroll-up-btn.show{
     bottom: 30px;
