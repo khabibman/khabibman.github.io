@@ -5,7 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-html{
+html::scrollbar{
    background:#393E46;
 }
 h2{
