@@ -352,6 +352,9 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.box .text {
+color:#fff;
+}
 /* skills section styling */
 .skills .title::after{
     content: "what i know";
