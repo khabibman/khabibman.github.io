@@ -5,7 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-html::scrollbar{
+html{
    background:#393E46;
 }
 h2{
@@ -14,7 +14,7 @@ h2{
 .column{
     color: #fff;
 }
-a{
+.box .card a{
 color:#fff;
 }
 /* custom scroll bar */
