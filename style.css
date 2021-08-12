@@ -747,6 +747,7 @@ footer span a:hover{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+	margin-left:500px;
 }
 .qaniy .icon{
   font-size: 17px;
