@@ -93,6 +93,52 @@ section{
     left: 0;
   }
 }
+.wrapperi{
+  display: flex;
+}
+.wrapperi .static-txt{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  margin-top:5px:
+}
+.wrapperi .dynamic-txtsi{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+	margin-top:-10px;
+}
+.dynamic-txtsi li{
+  list-style: none;
+  color: #BC6FF1;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txtsi li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txtsi li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #393E46;
+  margin-top: 15px;
+  border-left: 2px solid #BC6FF1;
+  animation: typing 3s steps(10) infinite;
+}
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
