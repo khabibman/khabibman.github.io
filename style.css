@@ -966,6 +966,9 @@ footer span a:hover{
     .wrapper{
         display: none;
     }
+	.qani{
+		dispaly:none;
+	}
    
     
 }
