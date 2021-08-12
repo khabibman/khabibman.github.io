@@ -733,7 +733,7 @@ footer span a:hover{
 .qaniy,
 .qaniy .img-area,
 .social-icons a,
-.buttons button{
+.buttons-qani button{
   background: #ecf0f3;
   box-shadow: -3px -3px 7px #ffffff,
                3px 3px 5px #ceced1;
@@ -828,7 +828,7 @@ footer span a:hover{
   box-shadow: inset -3px -3px 7px #ffffff,
               inset 3px 3px 5px #ceced1;
 }
-.buttons button:hover:before{
+.buttons-qani  button:hover:before{
   z-index: -1;
   border-radius: 5px;
 }
@@ -857,7 +857,7 @@ footer span a:hover{
   width: 100%;
   justify-content: space-between;
 }
-.buttons button{
+.buttons-qani  button{
   position: relative;
   width: 100%;
   border: none;
@@ -870,10 +870,10 @@ footer span a:hover{
   cursor: pointer;
   z-index: 4;
 }
-.buttons button:first-child{
+.buttons-qani button:first-child{
   margin-right: 10px;
 }
-.buttons button:last-child{
+.buttons-qani button:last-child{
   margin-left: 10px;
 }
 .qaniy .social-share{
