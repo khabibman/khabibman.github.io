@@ -95,6 +95,8 @@ section{
 }
 .wrapperi{
   display: flex;
+	justify-content:center;
+	   align-items: center;
 }
 .wrapperi .static-txt{
   color: #fff;
