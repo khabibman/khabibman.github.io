@@ -671,6 +671,9 @@ footer span a:hover{
         display: block;
         z-index: 999;
     }
+	.qaniy{
+	display:none;
+	}
     .menu-btn i.active:before{
         content: "\f00d";
     }
@@ -934,6 +937,9 @@ footer span a:hover{
     }
     
 }
+.qaniy{
+		dispaly:none;
+	}
 @media (max-width: 500px) {
     .home .home-content .text-2{
         font-size: 50px;
