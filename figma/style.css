@@ -490,4 +490,40 @@ font-weight: bold;
     flex-direction: column;
     }
     
+    
 }
+@media (max-width: 700px) {
+    .conteiner {
+      grid-template-areas:
+        'showcase showcase'
+        'top-box-a top-box-b';
+    }
+  
+    .free-c, standart h1 {
+      font-size: 2.5rem;
+    }
+  
+    .manu ul {
+      grid-template-columns: 1fr;
+    }
+  
+    .info {
+      grid-template-columns: 1fr;
+    }
+  
+    .info .btn {
+      display: block;
+      text-align: center;
+      margin: auto;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .top-container {
+      grid-template-areas:
+        'showcase'
+        'top-box-a'
+        'top-box-b';
+    }
+  }
+  
