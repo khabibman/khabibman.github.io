@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 html{
-   background:#393E46;
+   background:#AA8B56;
 }
 h2{
     color: #fff;
@@ -46,7 +46,7 @@ section{
   color: #fff;
   font-size: 60px;
   font-weight: 400;
-  margin-top:5px:
+  margin-top:5px;
 }
 .wrapper .dynamic-txts{
   margin-left: 15px;
@@ -57,7 +57,7 @@ section{
 }
 .dynamic-txts li{
   list-style: none;
-  color: #BC6FF1;
+  color: #6F4C5B;
   font-size: 60px;
   font-weight: 500;
   position: relative;
@@ -82,7 +82,7 @@ section{
   width: 100%;
   background: #393E46;
   margin-top: 15px;
-  border-left: 2px solid #BC6FF1;
+  border-left: 2px solid #6F4C5B;
   animation: typing 3s steps(10) infinite;
 }
 @keyframes typing {
@@ -102,7 +102,7 @@ section{
   color: #fff;
   font-size: 60px;
   font-weight: 400;
-  margin-top:5px:
+  margin-top:5px;
 }
 .wrapperi .dynamic-txtsi{
   margin-left: 15px;
@@ -113,7 +113,7 @@ section{
 }
 .dynamic-txtsi li{
   list-style: none;
-  color: #BC6FF1;
+  color: #6F4C5B;
   font-size: 60px;
   font-weight: 500;
   position: relative;
@@ -138,7 +138,7 @@ section{
   width: 100%;
   background: #393E46;
   margin-top: 15px;
-  border-left: 2px solid #BC6FF1;
+  border-left: 2px solid #6F4C5B;
   animation: typing 3s steps(10) infinite;
 }
 .about, .services, .skills, .teams, .contact, footer{
@@ -177,7 +177,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #BC6FF1;
+    color: #6F4C5B;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -193,7 +193,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #892CDC;
+    background: #9E6F21;
 }
 .navbar .max-width{
     display: flex;
@@ -201,16 +201,16 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #BC6FF1;
+    color: #6F4C5B;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #52057B;
+    color: #4C4B16;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #BC6FF1;
+    color: #6F4C5B;
 }
 .navbar .menu li{
     list-style: none;
@@ -218,7 +218,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #BC6FF1;
+    color: #6F4C5B;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -241,7 +241,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #892CDC;
+    background: #9E6F21;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -296,23 +296,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #892CDC;
+    color: #4C4B16;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #892CDC;
+    background: #9E6F21;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #892CDC;
+    border: 2px solid #9E6F21;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: #892CDC;
+    color: #9E6F21;
     background: none;
 }
 /* about section styling */
@@ -337,31 +337,31 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #892CDC;
+    color: #9E6F21;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #892CDC;
+    background: #9E6F21;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #892CDC;
+    border: 2px solid #9E6F21;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #892CDC;
+    color: #9E6F21;
     background: none;
 }
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #892CDC;
+    background: #9E6F21;
 }
 .services .title::before,
 .teams .title::before{
@@ -369,7 +369,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #892CDC;
+    background: #9E6F21;
     content: "what i provide";
 }
 .services .serv-content .card{
@@ -381,12 +381,12 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-. serv-contenti {
+.serv-contenti {
 text-align: center;
 background:#111;
 }
 .services .serv-content .card:hover{
-    background: #892CDC;
+    background: #9E6F21;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -427,18 +427,18 @@ color:#fff;
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: #892CDC;
+    background: #9E6F21;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #892CDC;
+    border: 2px solid #9E6F21;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #892CDC;
+    color: #9E6F21;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -466,7 +466,7 @@ color:#fff;
     height: 100%;
     left: 0;
     top: 0;
-    background: #892CDC;
+    background: #9E6F21;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -496,7 +496,7 @@ color:#fff;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: #892CDC;
+    background: #9E6F21;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -518,7 +518,7 @@ color:#fff;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #892CDC;
+    border: 5px solid #9E6F21;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -534,7 +534,7 @@ color:#fff;
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #892CDC!important;
+    border: 2px solid #9E6F21!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -543,7 +543,7 @@ color:#fff;
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: #892CDC!important;
+    background: #9E6F21!important;
 }
 /* contact section styling */
 .contact .title::after{
@@ -573,7 +573,7 @@ color:#fff;
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #892CDC;
+    color: #9E6F21;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -632,12 +632,12 @@ color:#fff;
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: #892CDC;
-  border: 2px solid #892CDC;
+  background: #9E6F21;
+  border: 2px solid #9E6F21;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: #892CDC;
+  color: #9E6F21;
   background: none;
 }
 /* footer section styling */
@@ -648,7 +648,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #892CDC;
+    color: #9E6F21;
     text-decoration: none;
 }
 footer span a:hover{
